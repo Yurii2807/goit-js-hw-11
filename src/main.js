@@ -2,7 +2,7 @@ import { fetchImages } from './js/pixabay-api.js';
 import { renderMarkup } from './js/render-functions.js';
 
 import alert from './img/alert.svg';
-import caution from './img/сaution.svg';
+import caution from './img/caution.svg';
 
 // SimpleLightBox library
 import SimpleLightbox from 'simplelightbox';
