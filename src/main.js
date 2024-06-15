@@ -51,7 +51,7 @@ searchBtnElem.addEventListener('click', event => {
         position: 'topRight',
         message: `${error}`,
       });
-      standBySpanElem.classList.loader('visually-hidden');
+      standBySpanElem.classList.add('visually-hidden');
     });
   searchFormElem.reset();
 });
