@@ -16,6 +16,7 @@ const searchInputElem = document.querySelector('.search-input');
 const searchBtnElem = document.querySelector('.search-btn');
 const standBySpanElem = document.querySelector('.loader-hidden');
 const galleryElem = document.querySelector('.gallery');
+
 let gallery = new SimpleLightbox('.gallery a', {
   captions: true,
   captionsData: 'alt',
@@ -50,6 +51,7 @@ searchBtnElem.addEventListener('click', event => {
         position: 'topRight',
         message: `${error}`,
       });
+      standBySpanElem.classList.loader('visually-hidden');
     });
   searchFormElem.reset();
 });
